@@ -2,7 +2,8 @@
     'option strict';
     /*globals trelloBookmarkletCore, async, Trello */
 
-    loadScript('trelloBookmarkletCore', 'https://dl.dropboxusercontent.com/u/20432002/trello-bookmarklet.core.js');
+    loadScript('trelloBookmarkletCore', 'https://rawgit.com/smichelotti/trello-bookmarklets/master/trello-bookmarklet.core.js');
+    
 
     function loadScript(windowObjectToCheck, scriptUrl) {
         if (window[windowObjectToCheck]) {
