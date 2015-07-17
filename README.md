@@ -4,4 +4,4 @@ This repository contains my [bookmarklets](https://en.wikipedia.org/wiki/Bookmar
 
 ### Usage
 
-    javascript:(function (a) { var b = a.createElement("script"); b.src = "https://raw.githubusercontent.com/smichelotti/trello-bookmarklets/master/trello-doing-cards-bookmarklet.js"; a.getElementsByTagName("head")[0].appendChild(b);})(document);
+    javascript:(function (a) { var b = a.createElement("script"); b.src = "https://rawgit.com/smichelotti/trello-bookmarklets/master/trello-doing-cards-bookmarklet.js"; a.getElementsByTagName("head")[0].appendChild(b);})(document);
