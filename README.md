@@ -5,3 +5,6 @@ This repository contains my [bookmarklets](https://en.wikipedia.org/wiki/Bookmar
 ### Usage
 
     javascript:(function (a) { var b = a.createElement("script"); b.src = "https://rawgit.com/smichelotti/trello-bookmarklets/master/trello-doing-cards-bookmarklet.js"; a.getElementsByTagName("head")[0].appendChild(b);})(document);
+
+
+More details in [this blog post](http://stevemichelotti.com/writing-a-trello-bookmarklet-with-async/).
